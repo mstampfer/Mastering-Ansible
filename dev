@@ -1,0 +1,14 @@
+[loadbalancer]
+lb01 ansible_connection=ssh ansible_user=vagrant
+
+[webserver]
+app01 ansible_connection=ssh ansible_user=vagrant
+app02 ansible_connection=ssh ansible_user=vagrant
+
+[database]
+db01 ansible_connection=ssh ansible_user=vagrant
+
+[control]
+control ansible_connection=local ansible_user=marcel
+
+
